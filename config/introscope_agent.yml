@@ -16,5 +16,5 @@
 # Configuration for the CA Wily framework
 ---
 repository_root: "https://s3-us-west-1.amazonaws.com/com.ca.apm.cloudfoundry/introscope/"
-version: 10.0.+
+version: 10.1.+
 default_agent_name: ! '$(ruby -e "require ''json'' ; puts JSON.parse(ENV[''VCAP_APPLICATION''])[''application_name'']")'
